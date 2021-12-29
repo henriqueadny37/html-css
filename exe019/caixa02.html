@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0%;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: dimgray;
+            padding: 2px;
+           box-shadow: 1px 1px 1px black;
+           border-radius: 5px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color:yellow;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: darkgray;
+            padding: 5px;
+            
+        }
+        article > aside{
+            background-color: rgb(97, 95, 95);
+        }
+        footer{
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+      <h1>Meu Site</h1>
+      <nav>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+      </nav>
+  </header>
+  <main>
+      <section id="assuntos">
+
+      </section>
+      <section id="noticias">
+          <p>Esportes Politica e Tecnologia</p>
+        <article>
+            <h2>Noticias Sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum repellendus, ea facilis nesciunt dolorum ipsa accusantium quidem quas blanditiis. Cupiditate laudantium autem vero rem officiis cum exercitationem esse molestias!</p>
+            <aside>
+                <p>Artigo Escrito por José da Silva</p>
+            </aside>
+        </article>
+        <article>
+
+
+        </article>
+
+
+      </section>
+  </main>
+  <footer>
+      <p>Desenvolvimento do Curso em Video</p>
+  </footer>
+</body>
+</html>
